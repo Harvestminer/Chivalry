@@ -2,6 +2,7 @@ package io.github.harvestminer.chivalry.registry;
 
 import io.github.harvestminer.chivalry.Chivalry;
 import io.github.harvestminer.chivalry.block.example_block;
+import io.github.harvestminer.chivalry.block.table_block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -16,7 +17,11 @@ public class BlockRegistry
 {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Chivalry.MODID);
 
-    public static final DeferredBlock<Block>[] BEAMS = RegisterAllWoodTypes("beam", () -> new example_block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)), new Item.Properties());
+    //public static final DeferredBlock<Block>[] BEAMS = RegisterAllWoodTypes("beam", () -> new example_block(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD)), new Item.Properties());
+    public static final DeferredBlock<Block>[] TABLES = RegisterAllWoodTypes(
+            "table",
+            () -> new table_block(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD)),
+            new Item.Properties());
 
     public static <T extends Block> DeferredBlock<T>[] RegisterAllWoodTypes(String name, Supplier<T> supplier, Item.Properties properties)
     {

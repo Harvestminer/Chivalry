@@ -27,9 +27,6 @@ public class Chivalry
         BlockRegistry.BLOCKS.register(modEventBus);
         ItemRegistry.ITEMS.register(modEventBus);
 
-        // Register ourselves for server and other game events we are interested in
-        NeoForge.EVENT_BUS.register(this);
-
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
