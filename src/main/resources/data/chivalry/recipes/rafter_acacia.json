@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "key": {"X": {"item": "minecraft:acacia_planks"}, "Z": {"item": "minecraft:acacia_slab"}}, "pattern": ["XZX", "X X", "X X"], "result": {"item": "chivalry:rafter_acacia", "count": 16}}

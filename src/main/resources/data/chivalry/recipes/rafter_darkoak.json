@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "key": {"X": {"item": "minecraft:dark_oak_planks"}, "Z": {"item": "minecraft:dark_oak_slab"}}, "pattern": ["XZX", "X X", "X X"], "result": {"item": "chivalry:rafter_darkoak", "count": 16}}

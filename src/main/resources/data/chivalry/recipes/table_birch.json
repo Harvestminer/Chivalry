@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "key": {"X": {"item": "minecraft:birch_planks"}, "Y": {"item": "minecraft:stick"}}, "pattern": ["XXX", "Y Y", "Y Y"], "result": {"item": "chivalry:table_birch"}}

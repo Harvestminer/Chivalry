@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "key": {"X": {"item": "minecraft:spruce_planks"}, "Z": {"item": "minecraft:spruce_slab"}}, "pattern": ["XZX", "X X", "X X"], "result": {"item": "chivalry:rafter_spruce", "count": 16}}

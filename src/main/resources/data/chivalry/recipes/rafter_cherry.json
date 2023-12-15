@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "key": {"X": {"item": "minecraft:cherry_planks"}, "Z": {"item": "minecraft:cherry_slab"}}, "pattern": ["XZX", "X X", "X X"], "result": {"item": "chivalry:rafter_cherry", "count": 16}}

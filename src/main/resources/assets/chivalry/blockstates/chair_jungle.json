@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "chivalry:block/chair_jungle"}, "facing=south": {"model": "chivalry:block/chair_jungle", "y": 180}, "facing=west": {"model": "chivalry:block/chair_jungle", "y": 270}, "facing=east": {"model": "chivalry:block/chair_jungle", "y": 90}}}

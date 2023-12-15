@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "#texture",
+		"texture": "#texture"
+	},
+	"elements": [
+		{
+			"from": [4, 11, 0],
+			"to": [12, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 6.5], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [0, 4, 4, 6.5], "texture": "#texture"},
+				"south": {"uv": [0, 4, 4, 6.5], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [0, 4, 4, 6.5], "texture": "#texture"},
+				"up": {"uv": [3, 1, 5.5, 3], "rotation": 90, "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [8, 0, 10, 4], "rotation": 270, "texture": "#texture"}
+			}
+		},
+		{
+			"from": [5, 5, 0],
+			"to": [11, 11, 8],
+			"faces": {
+				"north": {"uv": [0.5, 12, 3.5, 15], "texture": "#texture", "cullface": "north"},
+				"east": {"uv": [4, 6.5, 8, 9.5], "texture": "#texture"},
+				"south": {"uv": [0.5, 12, 3.5, 15], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [0, 6.5, 4, 9.5], "texture": "#texture"},
+				"down": {"uv": [8, 4, 12, 7], "rotation": 270, "texture": "#texture"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Half",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1]
+		}
+	]
+}

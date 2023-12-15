@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "key": {"X": {"item": "minecraft:jungle_planks"}, "Z": {"item": "minecraft:jungle_slab"}}, "pattern": ["XZX", "X X", "X X"], "result": {"item": "chivalry:rafter_jungle", "count": 16}}

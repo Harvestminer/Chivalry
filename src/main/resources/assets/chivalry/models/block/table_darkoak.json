@@ -1,0 +1,6 @@
+{
+  "parent": "chivalry:block/base/table",
+  "textures": {
+    "texture": "chivalry:block/table_darkoak"
+  }
+}
